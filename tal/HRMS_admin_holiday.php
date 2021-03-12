@@ -500,14 +500,15 @@
                                 <h3 class="card-title"></h3>
                                 <div class="card-options">
                                     <form>
+                                
                                         <div class="input-group">  
-                                        
-                        <select class="custom-select">
+                                        <select class="custom-select">
                             <option>ประเภทวันหยุด</option>
                             <option>วันหยุดประจำสัปดาห์</option>
                             <option>วันหยุดตามประเพณี</option>
                             <option>วันหยุดกรณีพิเศษ</option>
                         </select>
+                       
                                            <select class="custom-select">
                             <option>ปีงบประมาณ</option>
                             <option>2564</option>

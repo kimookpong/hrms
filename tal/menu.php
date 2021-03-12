@@ -8,10 +8,10 @@
                     <ul aria-expanded="true" class="collapse in" style="">
                         <li class="active"><a href="index.php"><span>หน้าหลัก</span></a></li>
                         <li><a href="HRMS_admin_holiday.php"><span>ตั้งค่ากำหนดวันหยุดประจำปี</span></a></li>
-                        <li><a href="HRMS_1_14_punish_list.php"><span>ตั้งค่ากำหนดกะเวลา</span></a></li>
-                        <li><a href="HRMS_1_13_admin_personal_req.php"><span>ตั้งค่ากะเวลา+ตำแหน่ง </a></li>
-                        <li><a href="HRMS_admin_req.php"><span>ตั้งค่ากำหนดประเภทการลา</a></li>
-                        <li><a href="HRMS_admin_req.php"><span>กำหนดอัตราค่าตอบแทนพิเศษ OT และเงื่อนไข</a></li>
+                        <li><a href="HRMS_admin_timeworkplan.php"><span>ตั้งค่ากำหนดกะเวลา</span></a></li>
+                        <li><a href="HRMS_admin_timeworkplan_position.php"><span>ตั้งค่ากะเวลา+ตำแหน่ง </a></li>
+                        <li><a href="HRMS_admin_leave_type.php"><span>ตั้งค่ากำหนดประเภทการลา</a></li>
+                        <li><a href="HRMS_admin_ot_type.php"><span>กำหนดอัตราค่าตอบแทนพิเศษ OT และเงื่อนไข</a></li>
                         <li><a href="HRMS_admin_req.php"><span>ตั้งค่ากำหนดจำนวนวันลาและเงื่อนไขของแต่ละประเภทการลาและสัญญาจ้าง</a></li>      
                         <li><a href="HRMS_admin_req.php"><span>สืบค้นการลาของพนักงาน สำหรับเจ้าหน้าที่ ทมอ</a></li>      
                         <li><a href="HRMS_admin_req.php"><span>หน้าสำหรับเรียกดูข้อมูลการปฎิบัติงานรายเดือนของพนักงาน สำหรับเจ้าหน้าที่ ทมอ</a></li>      
