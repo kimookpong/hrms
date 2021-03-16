@@ -67,7 +67,7 @@ Created:  Tue Mar 16 2021
                 <div class="container-fluid">
                     <div class="page-header">
                         <div class="left">
-                            <h1 class="page-title">ข่าวประกาศ</h1>
+                            <h1 class="page-title">ระบบแจ้งเตือน (Notification)</h1>
                         </div>
                         <?php include "_notice.php"; ?>
                     </div>
@@ -81,36 +81,46 @@ Created:  Tue Mar 16 2021
                         <div class="col-xl-12 col-lg-12 col-md-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h3 class="card-title">แจ้งเพื่อทราบ</h3>
-                                    <div class="card-options">
-                                        <a href="#" class="card-options-remove" data-toggle="card-remove"><i class="fe fe-x"></i></a>
-                                    </div>
+                                    <h3 class="card-title">ระบบแจ้งเตือน</h3>
                                 </div>
                                 <table class="table card-table mt-2">
                                     <tbody>
                                         <tr>
-                                            <td class="width45"><span class="avatar avatar-green"><i class="fa fa-newspaper-o"></i></span></td>
+                                            <td class="width45">
+                                                <span class="avatar avatar-green"><i class="fa fa-check"></i></span>
+                                            </td>
                                             <td>
-                                                <p class="mb-0">ประกาศ มวล.เรื่อง แนวปฏิบัติการเฝ้าระวังการระบาดของโรคติดเชื้อไวรัสโคโรน่า 2019 (โควิด19) ฉบับที่ 3 </p>
-                                                <span class="text-muted font-13">ประกาศ ณ วันที่ 2 กุมภาพันธ์ 2564</span>
+                                                <p class="mb-0"><a href="notificationDetail.php">ใบลาของท่านอนุมัติแล้ว</a></p>
+                                                <span class="text-muted font-13">ใบลาพักผ่อน #L0013121 อนุมัติแล้ว</span>
                                             </td>
                                             <td class="text-right">
-                                                <p class="mb-0"> [879]</p>
-                                                <span class="text-success font-13">อ่านทั้งหมด</span>
+                                                <p class="mb-0">12 ม.ค. 2563 เวลา 11:05 น.</p>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td class="width45"><span class="avatar avatar-orange"><i class="fa fa-newspaper-o"></i></span></td>
+                                            <td class="width45">
+                                                <span class="avatar avatar-orange"><i class="fa fa-user"></i></span>
+                                            </td>
                                             <td>
-                                                <p class="mb-0">กำหนดการและรายละเอียดการสอบ TOEFL ITP วันเสาร์ที่ 6 มีนาคม 2564</p>
-                                                <span class="text-muted font-13">ประกาศ ณ วันที่ 2 กุมภาพันธ์ 2564</span>
+                                                <p class="mb-0"><a href="notificationDetail.php">มีบุคลากรใหม่ในหน่วยงานของท่าน</a></p>
+                                                <span class="text-muted font-13">มีบุคลากรใหม่ในหน่วยงานของท่าน</span>
                                             </td>
                                             <td class="text-right">
-                                                <p class="mb-0"> [28]</p>
-                                                <span class="text-success font-13">อ่านทั้งหมด</span>
+                                                <p class="mb-0">12 ม.ค. 2563 เวลา 11:05 น.</p>
                                             </td>
                                         </tr>
-
+                                        <tr>
+                                            <td class="width45">
+                                                <span class="avatar avatar-yellow"><i class="fa fa-thumbs-o-up"></i></span>
+                                            </td>
+                                            <td>
+                                                <p class="mb-0"><a href="notificationDetail.php">ใบเบิกสวัสดิการของท่านถึงการเงินแล้ว</a></p>
+                                                <span class="text-muted font-13">อยู่ในขั้นตอนการตรวจสอบความถูกต้อง</span>
+                                            </td>
+                                            <td class="text-right">
+                                                <p class="mb-0">12 ม.ค. 2563 เวลา 11:05 น.</p>
+                                            </td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
