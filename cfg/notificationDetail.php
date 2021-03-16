@@ -83,13 +83,16 @@ Created:  Tue Mar 16 2021
                                 <div class="card-status bg-yellow"></div>
                                 <div class="card-header">
                                     <h3 class="card-title">
-                                        <h5>ข้อมูลจากระบบ: ใบลาของท่านอนุมัติแล้ว</h5>
+                                        <div class="text-left">
+                                            <h5>ข้อมูลจากระบบ: ใบลาของท่านอนุมัติแล้ว</h5>
+                                        </div>
+                                        <div class="text-left">
+                                            <p class="mb-0">12 ม.ค. 2563 เวลา 11:05 น.</p>
+                                        </div>
                                     </h3>
                                 </div>
                                 <div class="card-body">
-                                    ใบลาพักผ่อน #L0013121 อนุมัติแล้ว
-
-                                    <a href="#">[ตรวจสอบข้อมูล]</a>
+                                    ใบลาพักผ่อน #L0013121 อนุมัติแล้ว <a href="#">[ตรวจสอบข้อมูล]</a>
                                 </div>
                             </div>
 

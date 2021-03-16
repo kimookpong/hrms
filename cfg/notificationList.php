@@ -87,10 +87,10 @@ Created:  Tue Mar 16 2021
                                     <tbody>
                                         <tr>
                                             <td class="width45">
-                                                <span class="avatar avatar-green"><i class="fa fa-check"></i></span>
+                                                <span class="avatar avatar-orange "><i class="fa fa-check "></i></span>
                                             </td>
                                             <td>
-                                                <p class="mb-0"><a href="notificationDetail.php">ใบลาของท่านอนุมัติแล้ว</a></p>
+                                                <h6 class="mb-0"><a href="notificationDetail.php"><span class="badge badge-success" style="min-height: 8px;display: inline-block;min-width: 5px;box-shadow: 0 0 0 rgb(67 74 84 / 90%);animation: pulse 2s infinite;font-size: 60%;"></span> ใบลาของท่านอนุมัติแล้ว</a></h6>
                                                 <span class="text-muted font-13">ใบลาพักผ่อน #L0013121 อนุมัติแล้ว</span>
                                             </td>
                                             <td class="text-right">
@@ -102,7 +102,7 @@ Created:  Tue Mar 16 2021
                                                 <span class="avatar avatar-orange"><i class="fa fa-user"></i></span>
                                             </td>
                                             <td>
-                                                <p class="mb-0"><a href="notificationDetail.php">มีบุคลากรใหม่ในหน่วยงานของท่าน</a></p>
+                                                <h6 class="mb-0"><a href="notificationDetail.php"><span class="badge badge-success" style="min-height: 8px;display: inline-block;min-width: 5px;box-shadow: 0 0 0 rgb(67 74 84 / 90%);animation: pulse 2s infinite;font-size: 60%;"></span> มีบุคลากรใหม่ในหน่วยงานของท่าน</a></h6>
                                                 <span class="text-muted font-13">มีบุคลากรใหม่ในหน่วยงานของท่าน</span>
                                             </td>
                                             <td class="text-right">
@@ -111,10 +111,10 @@ Created:  Tue Mar 16 2021
                                         </tr>
                                         <tr>
                                             <td class="width45">
-                                                <span class="avatar avatar-yellow"><i class="fa fa-thumbs-o-up"></i></span>
+                                                <span class="avatar avatar-orange"><i class="fa fa-thumbs-o-up"></i></span>
                                             </td>
                                             <td>
-                                                <p class="mb-0"><a href="notificationDetail.php">ใบเบิกสวัสดิการของท่านถึงการเงินแล้ว</a></p>
+                                                <h6 class="mb-0"><a href="notificationDetail.php">ใบเบิกสวัสดิการของท่านถึงการเงินแล้ว</a></h6>
                                                 <span class="text-muted font-13">อยู่ในขั้นตอนการตรวจสอบความถูกต้อง</span>
                                             </td>
                                             <td class="text-right">
