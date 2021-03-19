@@ -87,45 +87,71 @@ Created:  Tue Mar 16 2021
                                     </div>
                                 </div>
                                 <table class="table card-table mt-2">
-                                    <tbody>
-                                        <tr>
-                                            <td class="width45"><span class="avatar avatar-green"><i class="fa fa-newspaper-o"></i></span></td>
-                                            <td>
-                                                <p class="mb-0">ประกาศ มวล.เรื่อง แนวปฏิบัติการเฝ้าระวังการระบาดของโรคติดเชื้อไวรัสโคโรน่า 2019 (โควิด19) ฉบับที่ 3 </p>
-                                                <span class="text-muted font-13">ประกาศ ณ วันที่ 2 กุมภาพันธ์ 2564</span>
-                                            </td>
-                                            <td class="text-right">
-                                                <p class="mb-0"> [879]</p>
-                                                <span class="text-success font-13">อ่านทั้งหมด</span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="width45"><span class="avatar avatar-orange"><i class="fa fa-newspaper-o"></i></span></td>
-                                            <td>
-                                                <p class="mb-0">กำหนดการและรายละเอียดการสอบ TOEFL ITP วันเสาร์ที่ 6 มีนาคม 2564</p>
-                                                <span class="text-muted font-13">ประกาศ ณ วันที่ 2 กุมภาพันธ์ 2564</span>
-                                            </td>
-                                            <td class="text-right">
-                                                <p class="mb-0"> [28]</p>
-                                                <span class="text-success font-13">อ่านทั้งหมด</span>
-                                            </td>
-                                        </tr>
-
-                                    </tbody>
-                                </table>
-                            </div>
+                                <tbody>
+                                    <tr>
+                                        <td class="width45"><span class="avatar avatar-green"><i class="fa fa-newspaper-o"></i></span></td>
+                                        <td>
+                                            <p class="mb-0">ประกาศ มวล.เรื่อง แนวปฏิบัติการเฝ้าระวังการระบาดของโรคติดเชื้อไวรัสโคโรน่า 2019 (โควิด19) ฉบับที่ 3 </p>
+                                            <span class="text-muted font-13">วันที่ประกาศ: 12/03/2564 - อ่าน : 230 </span>											
+                                        </td>                                       
+                                    </tr>
+                                    <tr>
+                                        <td class="width45"><span class="avatar avatar-orange"><i class="fa fa-newspaper-o"></i></span></td>
+                                        <td>
+                                            <p class="mb-0">กำหนดการและรายละเอียดการสอบ TOEFL ITP วันเสาร์ที่ 6 มีนาคม 2564</p>
+                                            <span class="text-muted font-13">วันที่ประกาศ: 12/03/2564 - อ่าน : 567</span>
+                                        </td>                                        
+                                    </tr>                     
+                                </tbody>
+                            </table> 
+							 <div class="mt-20">
+                            <a href=""class="float-right">อ่านทั้งหมด <i class="fa fa-arrow-circle-o-right"></i></a> 
                         </div>
+                        </div>
+
+						<div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">แจ้งเพื่อทราบ2</h3>
+                               
+                            </div>
+                            <table class="table card-table mt-2">
+                                <tbody>
+                                    <tr>
+                                        <td class="width45"><span class="avatar avatar-green"><i class="fa fa-newspaper-o"></i></span></td>
+                                        <td>
+                                            <p class="mb-0">ประกาศ มวล.เรื่อง แนวปฏิบัติการเฝ้าระวังการระบาดของโรคติดเชื้อไวรัสโคโรน่า 2019 (โควิด19) ฉบับที่ 3 </p>
+                                            <span class="text-muted font-13">วันที่ประกาศ: 12/03/2564 - อ่าน : 230 </span>
+                                        </td>
+                                       
+                                    </tr>
+                                    <tr>
+                                        <td class="width45"><span class="avatar avatar-orange"><i class="fa fa-newspaper-o"></i></span></td>
+                                        <td>
+                                            <p class="mb-0">กำหนดการและรายละเอียดการสอบ TOEFL ITP วันเสาร์ที่ 6 มีนาคม 2564</p>
+                                            <span class="text-muted font-13">วันที่ประกาศ: 12/03/2564 - อ่าน : 567</span>
+                                        </td>                                        
+                                    </tr>
+                     
+                                </tbody>
+                            </table>                        
+							<div class="mt-20">
+                            <a href=""class="float-right">อ่านทั้งหมด <i class="fa fa-arrow-circle-o-right"></i></a> 
+                        </div>
+                        </div>
+
+
                     </div>
+                </div>    
 
-                </div>
-            </div>
         </div>
+              </div>    
+</div>
 
 
 
 
-    </div>
-    </div>
+    </div>    
+</div>
 
 
 
