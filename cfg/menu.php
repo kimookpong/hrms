@@ -10,6 +10,7 @@
                         <li><a href="privilege.php"><span>สิทธิ์การใช้งาน</span></a></li>
                         <li><a href="function.php"><span>ฟังชั่น</span></a></li>
                         <li><a href="privilege+fun.php"><span>สิทธิ์การใช้งาน+ฟังชั่น</span></a></li>
+                        <li><a href="admindiv.php"><span>ตั้งค่า Admin แต่ละหน่วยงาน</span></a></li>
                     </ul>
                 </li>
                 <li>
