@@ -9,7 +9,7 @@
                         <li><a href="module.php"><span>ชื่อโมดูล</span></a></li>
                         <li><a href="privilege.php"><span>สิทธิ์การใช้งาน</span></a></li>
                         <li><a href="function.php"><span>ฟังชั่น</span></a></li>
-                        <li><a href="HRMS_user_req.php"><span>สิทธิ์การใช้งาน+ฟังชั่น</span></a></li>
+                        <li><a href="privilege+fun.php"><span>สิทธิ์การใช้งาน+ฟังชั่น</span></a></li>
                     </ul>
                 </li>
                 <li>
