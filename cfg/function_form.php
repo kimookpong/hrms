@@ -92,6 +92,12 @@
                                             <input type="text" class="form-control" name="example-text-input" placeholder="">
                                         </div>
                                     </div>
+                                    <div class="col-md-3 col-lg-3">
+                                        <div class="form-group">
+                                        <label class="form-label">&nbsp&nbsp</label>
+                                            <label class="form-label"> <input type="checkbox" > ฟังก์ชั่นพื้นฐานสำหรับทุกสิทธิ์</label>
+                                        </div>
+                                    </div>
  </div>
                                     <div class="card-footer text-center">
                                  

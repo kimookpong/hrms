@@ -68,7 +68,7 @@
                             </div>  </div>
                             <div class="col-md-6 col-lg-6"></div>
                            
-                           <div class="col-md-2 col-lg-2">ฟังชั่น</div>
+                           <div class="col-md-2 col-lg-2">ฟังก์ชั่น</div>
 
                             <div class="col-md-10 col-lg-10">
                                             <table class="table">
