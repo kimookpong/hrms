@@ -7,7 +7,7 @@
 
 <link rel="icon" href="favicon.ico" type="image/x-icon"/>
 
-<title>WU HRMS : Walailak University</title>
+<title>:: Epic :: HR Employee</title>
 
 <!-- Bootstrap Core and vandor -->
 <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css" />
@@ -33,20 +33,20 @@
     <div id="header_top" class="header_top">
         <div class="container">
             <div class="hleft">
-                <a class="header-brand" href="#"><i class="fe fe-command brand-logo"></i></a>
-                <!--<div class="dropdown">
+                <a class="header-brand" href="index.html"><i class="fe fe-command brand-logo"></i></a>
+                <div class="dropdown">
                     <a href="page-search.html" class="nav-link icon"><i class="fa fa-search"></i></a>                    
                     <a href="app-calendar.html"  class="nav-link icon app_inbox"><i class="fa fa-calendar"></i></a>
                     <a href="app-contact.html"  class="nav-link icon xs-hide"><i class="fa fa-id-card-o"></i></a>
                     <a href="app-chat.html"  class="nav-link icon xs-hide"><i class="fa fa-comments-o"></i></a>
                     <a href="app-filemanager.html"  class="nav-link icon app_file xs-hide"><i class="fa fa-folder-o"></i></a>
-                </div>-->
+                </div>
             </div>
             <div class="hright">
                 <div class="dropdown">
-                    <!--<a href="javascript:void(0)" class="nav-link icon theme_btn"><i class="fa fa-paint-brush" data-toggle="tooltip" data-placement="right" title="Themes"></i></a>
+                    <a href="javascript:void(0)" class="nav-link icon theme_btn"><i class="fa fa-paint-brush" data-toggle="tooltip" data-placement="right" title="Themes"></i></a>
                     <a href="javascript:void(0)" class="nav-link icon settingbar"><i class="fa fa-gear fa-spin" data-toggle="tooltip" data-placement="right" title="Settings"></i></a>
-                    <a href="javascript:void(0)" class="nav-link user_btn"><img class="avatar" src="../assets/images/user.png" alt="" data-toggle="tooltip" data-placement="right" title="User Menu"/></a>-->
+                    <a href="javascript:void(0)" class="nav-link user_btn"><img class="avatar" src="../assets/images/user.png" alt="" data-toggle="tooltip" data-placement="right" title="User Menu"/></a>
                     <a href="javascript:void(0)" class="nav-link icon menu_toggle"><i class="fa  fa-align-left"></i></a>
                 </div>            
             </div>
@@ -437,52 +437,219 @@
             </ul>
         </div>
     </div>
-	<?php include "menu1.php";?>
+	<?php include "menu.php";?>
 
     <div class="page">
         <div id="page_top" class="section-body ">
             <div class="container-fluid">
                 <div class="page-header">
                     <div class="left">
-                        <h1 class="page-title"><i class="icon-credit-card"></i> ทะเบียนประวัติ : เลือกสิทธิ์การใช้งาน</h1>                   
+                        <h1 class="page-title">รายชื่อพนักงาน</h1>                   
                     </div>
-                    <?php include "../cfg/_notice.php"; ?>
-          
+                    <div class="right">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Language</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><img class="w20 mr-2" src="../assets/images/flags/us.svg">English</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#"><img class="w20 mr-2" src="../assets/images/flags/es.svg">Spanish</a>
+                                    <a class="dropdown-item" href="#"><img class="w20 mr-2" src="../assets/images/flags/jp.svg">japanese</a>
+                                    <a class="dropdown-item" href="#"><img class="w20 mr-2" src="../assets/images/flags/bl.svg">France</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Reports</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="dropdown-icon fa fa-file-excel-o"></i> MS Excel</a>
+                                    <a class="dropdown-item" href="#"><i class="dropdown-icon fa fa-file-word-o"></i> MS Word</a>
+                                    <a class="dropdown-item" href="#"><i class="dropdown-icon fa fa-file-pdf-o"></i> PDF</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Project</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Graphics Design</a>                                    
+                                    <a class="dropdown-item" href="#">Angular Admin</a>
+                                    <a class="dropdown-item" href="#">PSD to HTML</a>
+                                    <a class="dropdown-item" href="#">iOs App Development</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Home Development</a>
+                                    <a class="dropdown-item" href="#">New Blog post</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="notification d-flex">
+                            <div class="dropdown d-flex">
+                                <a class="nav-link icon d-none d-md-flex btn btn-default btn-icon ml-1" data-toggle="dropdown"><i class="fa fa-envelope"></i><span class="badge badge-success nav-unread"></span></a>
+                                <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                    <ul class="right_chat list-unstyled w250 p-0">
+                                        <li class="online">
+                                            <a href="javascript:void(0);">
+                                                <div class="media">
+                                                    <img class="media-object " src="../assets/images/xs/avatar4.jpg" alt="">
+                                                    <div class="media-body">
+                                                        <span class="name">Donald Gardner</span>
+                                                        <span class="message">Designer, Blogger</span>
+                                                        <span class="badge badge-outline status"></span>
+                                                    </div>
+                                                </div>
+                                            </a>                            
+                                        </li>
+                                        <li class="online">
+                                            <a href="javascript:void(0);">
+                                                <div class="media">
+                                                    <img class="media-object " src="../assets/images/xs/avatar5.jpg" alt="">
+                                                    <div class="media-body">
+                                                        <span class="name">Wendy Keen</span>
+                                                        <span class="message">Java Developer</span>
+                                                        <span class="badge badge-outline status"></span>
+                                                    </div>
+                                                </div>
+                                            </a>                            
+                                        </li>
+                                        <li class="offline">
+                                            <a href="javascript:void(0);">
+                                                <div class="media">
+                                                    <img class="media-object " src="../assets/images/xs/avatar2.jpg" alt="">
+                                                    <div class="media-body">
+                                                        <span class="name">Matt Rosales</span>
+                                                        <span class="message">CEO, Epic Theme</span>
+                                                        <span class="badge badge-outline status"></span>
+                                                    </div>
+                                                </div>
+                                            </a>                            
+                                        </li>
+                                        <li class="online">
+                                            <a href="javascript:void(0);">
+                                                <div class="media">
+                                                    <img class="media-object " src="../assets/images/xs/avatar3.jpg" alt="">
+                                                    <div class="media-body">
+                                                        <span class="name">Phillip Smith</span>
+                                                        <span class="message">Writter, Mag Editor</span>
+                                                        <span class="badge badge-outline status"></span>
+                                                    </div>
+                                                </div>
+                                            </a>                            
+                                        </li>                        
+                                    </ul>
+                                    <div class="dropdown-divider"></div>
+                                    <a href="javascript:void(0)" class="dropdown-item text-center text-muted-dark readall">Mark all as read</a>
+                                </div>
+                            </div>
+                            <div class="dropdown d-flex">
+                                <a class="nav-link icon d-none d-md-flex btn btn-default btn-icon ml-1" data-toggle="dropdown"><i class="fa fa-bell"></i><span class="badge badge-primary nav-unread"></span></a>
+                                <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                    <ul class="list-unstyled feeds_widget">
+                                        <li>
+                                            <div class="feeds-left"><i class="fa fa-check"></i></div>
+                                            <div class="feeds-body">
+                                                <h4 class="title text-danger">Issue Fixed <small class="float-right text-muted">11:05</small></h4>
+                                                <small>WE have fix all Design bug with Responsive</small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="feeds-left"><i class="fa fa-user"></i></div>
+                                            <div class="feeds-body">
+                                                <h4 class="title">New User <small class="float-right text-muted">10:45</small></h4>
+                                                <small>I feel great! Thanks team</small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="feeds-left"><i class="fa fa-thumbs-o-up"></i></div>
+                                            <div class="feeds-body">
+                                                <h4 class="title">7 New Feedback <small class="float-right text-muted">Today</small></h4>
+                                                <small>It will give a smart finishing to your site</small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="feeds-left"><i class="fa fa-question-circle"></i></div>
+                                            <div class="feeds-body">
+                                                <h4 class="title text-warning">Server Warning <small class="float-right text-muted">10:50</small></h4>
+                                                <small>Your connection is not private</small>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="feeds-left"><i class="fa fa-shopping-cart"></i></div>
+                                            <div class="feeds-body">
+                                                <h4 class="title">7 New Orders <small class="float-right text-muted">11:35</small></h4>
+                                                <small>You received a new oder from Tina.</small>
+                                            </div>
+                                        </li>                                   
+                                    </ul>
+                                    <div class="dropdown-divider"></div>
+                                    <a href="javascript:void(0)" class="dropdown-item text-center text-muted-dark readall">Mark all as read</a>
+                                </div>
+                            </div>
+                            <div class="dropdown d-flex">
+                                <a class="nav-link icon d-none d-md-flex btn btn-default btn-icon ml-1" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+                                <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                    <a class="dropdown-item" href="page-profile.html"><i class="dropdown-icon fe fe-user"></i> Profile</a>
+                                    <a class="dropdown-item" href="app-setting.html"><i class="dropdown-icon fe fe-settings"></i> Settings</a>
+                                    <a class="dropdown-item" href="javascript:void(0)"><span class="float-right"><span class="badge badge-primary">6</span></span><i class="dropdown-icon fe fe-mail"></i> Inbox</a>
+                                    <a class="dropdown-item" href="javascript:void(0)"><i class="dropdown-icon fe fe-send"></i> Message</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="javascript:void(0)"><i class="dropdown-icon fe fe-help-circle"></i> Need help?</a>
+                                    <a class="dropdown-item" href="login.html"><i class="dropdown-icon fe fe-log-out"></i> Sign out</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="section-body">
             <div class="container-fluid">
-      
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <ul class="nav nav-tabs page-header-tab">
+                        <li class="nav-item"><a class="nav-link active" id="Employee-tab" data-toggle="tab" href="#Employee-list">ทั้งหมด</a></li>
+                        <li class="nav-item"><a class="nav-link" id="Employee-tab" data-toggle="tab" href="#Employee-Request">ต้องการแจ้งออก <span class="badge badge-danger">6</span></a>
+                        </li>
+                    </ul>
+                    <div class="header-action">
+                        <a href="HRMS_1_2_add_new_employee_1.php">
+                            <button type="button" class="btn btn-primary" ><i class="fe fe-plus mr-2"></i>เพิ่ม</button>
+                        </a>
+                    </div>
+                </div>
                 <div class="row">
 
                     <div class="col-lg-4 col-md-4">
-                        <div class="card">                        
-                            <div class="card-body">
-                                <a href="indexnew.php" class="my_sort_cut text-muted">
-                                    <i class="icon-credit-card"></i>
-                                    <span>สำหรับ ทมอ.</span>
-                                </a>
+                        <div class="card">
+                            <div class="card-body w_sparkline">
+                                <div class="details">
+                                    <span>พนักงานทั้งหมด</span>
+                                    <h3 class="mb-0 counter">614</h3>
+                                </div>
+                                <div class="w_chart">
+                                    <span id="mini-bar-chart1" class="mini-bar-chart"></span>
+                                </div>
                             </div>
-                      </div>                        
+                        </div>
                     </div>
                     <div class="col-lg-4 col-md-4">
-                    <div class="card">                        
-                            <div class="card-body">
-                                <a href="HRMS_1_13_admin_personal_req.php" class="my_sort_cut text-muted">
-                                    <i class="icon-credit-card"></i>
-                                    <span>สำหรับพนักงาน</span>
-                                </a>
+                        <div class="card">
+                            <div class="card-body w_sparkline">
+                                <div class="details">
+                                    <span">พนักงานใหม่</span>
+                                    <h3 class="mb-0 counter">124</h3>
+                                </div>
+                                <div class="w_chart">
+                                    <span id="mini-bar-chart2" class="mini-bar-chart"></span>
+                                </div>
                             </div>
-                    </div>
+                        </div>
                     </div>
                     <div class="col-lg-4 col-md-4">
-                    <div class="card">                        
-                            <div class="card-body">
-                                <a href="indexnew.php" class="my_sort_cut text-muted">
-                                    <i class="icon-credit-card"></i>
-                                    <span>สำหรับ xxx</span>
-                                </a>
+                        <div class="card">
+                            <div class="card-body w_sparkline">
+                                <div class="details">
+                                    <span>พนักงานลาออก</span>
+                                    <h3 class="mb-0 counter">504</h3>
+                                </div>
+                                <div class="w_chart">
+                                    <span id="mini-bar-chart3" class="mini-bar-chart"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -490,7 +657,167 @@
                 </div>
             </div>
         </div>
-            
+        <div class="section-body">
+            <div class="container-fluid">
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="Employee-list" role="tabpanel">   
+						<div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4 col-sm-6">
+                                        <label>ค้นหาพนักงาน</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search...">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <label>หน่วยงาน</label>
+                                        <div class="multiselect_div">
+                                            <select id="multiselect3-all" name="multiselect3[]" class="multiselect multiselect-custom" multiple="multiple">
+                                                <option value="All Statuses">All Statuses</option>
+                                                <option value="New">New</option>
+                                                <option value="Contacted">Contacted</option>
+                                                <option value="Interviewed">Interviewed</option>
+                                                <option value="Hired">Hired</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <label>เรียงตาม</label>
+                                        <div class="form-group">
+                                            <select class="custom-select">
+                                                <option selected="">Newest first</option>
+                                                <option value="1">Oldest first</option>
+                                                <option value="2">Low salary first</option>
+                                                <option value="3">High salary first</option>
+                                                <option value="3">Sort by name</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-4 col-sm-6">
+                                        <label>&nbsp;</label>
+										<div class="header-action">
+											<button type="button" class="btn btn-primary btn-block"><i class="fe fe-search"></i> ค้นหา</button>
+										</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>		
+                        						
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-hover table-striped table-vcenter text-nowrap mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>พนักงาน</th>
+                                                <th>ตำแหน่งงาน</th>
+                                                <th>หน่วยงาน</th>
+                                                <th>วันที่เริ่มงาน</th>
+                                                <th>สถานะ</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php for($i=0;$i<10;$i++){ ?>
+                                            <tr>
+                                                <td class="w40">
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
+                                                        <span class="custom-control-label">&nbsp;</span>
+                                                    </label>
+                                                </td>
+                                                <td class="d-flex">
+                                                    <span class="avatar avatar-blue" data-toggle="tooltip" title="" data-original-title="รูปภาพ">MN</span>
+                                                    <div class="ml-3">
+                                                        <h6 class="mb-0">นายฮากิม มูดอ</h6>
+                                                        <span class="text-muted">Hakim Mudor</span>
+                                                    </div>
+                                                </td>
+                                                <td><span>เจ้าหน้าที่วิเคราะห์ระบบ</span></td>
+                                                <td><span>ศูนย์เทคโนโลยีดิจิตอล</span></td>
+                                                <td>7 ธ.ค. 2563</td>
+                                                <td><span class="tag tag-success">ปกติ</span></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-secondary btn-sm" title="ดู" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></button>
+                                                    <a href="HRMS_1_3_edit_new_employee_1.php"><button type="button" class="btn btn-primary btn-sm" title="แก้ไข"><i class="fa fa-edit"></i></button></a>
+                                                    <button type="button" class="btn btn-danger js-sweetalert btn-sm" title="ลบ" data-type="confirm"><i class="fa fa-trash-o"></i></button>
+                                                </td>
+                                            </tr>
+                                            <?php } ?>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        
+						<ul class="pagination mt-2">
+                            <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+                            <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
+                            <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                            <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+                            <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-pane fade" id="Employee-Request" role="tabpanel">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                <table class="table table-hover table-striped table-vcenter text-nowrap mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>พนักงาน</th>
+                                                <th>ตำแหน่งงาน</th>
+                                                <th>หน่วยงาน</th>
+                                                <th>วันที่เริ่มงาน</th>
+                                                <th>สถานะ</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="w40">
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" name="example-checkbox1" value="option1">
+                                                        <span class="custom-control-label">&nbsp;</span>
+                                                    </label>
+                                                </td>
+                                                <td class="d-flex">
+                                                    <span class="avatar avatar-blue" data-toggle="tooltip" title="" data-original-title="รูปภาพ">MN</span>
+                                                    <div class="ml-3">
+                                                        <h6 class="mb-0">นายฮากิม มูดอ</h6>
+                                                        <span class="text-muted">Hakim Mudor</span>
+                                                    </div>
+                                                </td>
+                                                <td><span>เจ้าหน้าที่วิเคราะห์ระบบ</span></td>
+                                                <td><span>ศูนย์เทคโนโลยีดิจิตอล</span></td>
+                                                <td>7 ธ.ค. 2563</td>
+                                                <td><span class="tag tag-success">ปกติ</span></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-secondary" title="ดู" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></button>
+                                                    <a href="HRMS_1_3_edit_new_employee_1.php"><button type="button" class="btn btn-primary" title="แก้ไข"><i class="fa fa-edit"></i></button></a>
+                                                    <button type="button" class="btn btn-danger js-sweetalert" title="ลบ" data-type="confirm"><i class="fa fa-trash-o"></i></button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+						<ul class="pagination mt-2">
+                            <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+                            <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
+                            <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                            <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+                            <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>            
+        </div>        
     </div>    
 </div>
 
