@@ -81,10 +81,8 @@ Created:  Tue Mar 16 2021
                         <div class="col-xl-12 col-lg-12 col-md-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h3 class="card-title">แจ้งเพื่อทราบ</h3>
-                                    <div class="card-options">
-                                        <a href="#" class="card-options-remove" data-toggle="card-remove"><i class="fe fe-x"></i></a>
-                                    </div>
+                                    <h3 class="card-title">ข่าวประกาศทั่วไป</h3>
+                                    
                                 </div>
                                 <table class="table card-table mt-2">
                                 <tbody>
@@ -105,14 +103,13 @@ Created:  Tue Mar 16 2021
                                 </tbody>
                             </table> 
 							 <div class="mt-20">
-                            <a href=""class="float-right">อ่านทั้งหมด <i class="fa fa-arrow-circle-o-right"></i></a> 
+                            <a href="indexnews.php"class="float-right">อ่านทั้งหมด <i class="fa fa-arrow-circle-o-right"></i></a> 
                         </div>
                         </div>
 
 						<div class="card">
                             <div class="card-header">
-                                <h3 class="card-title">แจ้งเพื่อทราบ2</h3>
-                               
+                                <h3 class="card-title">ข่าวเรื่องอัตรากำลัง</h3>                               
                             </div>
                             <table class="table card-table mt-2">
                                 <tbody>
@@ -135,7 +132,7 @@ Created:  Tue Mar 16 2021
                                 </tbody>
                             </table>                        
 							<div class="mt-20">
-                            <a href=""class="float-right">อ่านทั้งหมด <i class="fa fa-arrow-circle-o-right"></i></a> 
+                            <a href="indexnews.php"class="float-right">อ่านทั้งหมด <i class="fa fa-arrow-circle-o-right"></i></a> 
                         </div>
                         </div>
 
