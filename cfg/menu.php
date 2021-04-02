@@ -3,7 +3,7 @@
         <nav id="left-sidebar-nav" class="sidebar-nav">
             <ul class="metismenu">
 
-                <li class="active">
+                <!--<li class="active">
                     <a href="javascript:void(0)" class="has-arrow arrow-c" aria-expanded="true"><i class="icon-rocket"></i><span>ตั้งค่าระบบ</span></a>
                     <ul aria-expanded="false" class="collapse" style="">
                         <li><a href="module.php"><span>ชื่อโมดูล</span></a></li>
@@ -13,7 +13,7 @@
                         <li><a href="admindiv.php"><span>ตั้งค่า Admin แต่ละหน่วยงาน</span></a></li>
                         <li><a href="adminfun+privilege.php"><span>ตั้งค่าสิทธิ์การใช้งานหน่วยงาน</span></a></li>
                     </ul>
-                </li>
+                </li>-->
                 <li>
                     <a href="javascript:void(0)" class="has-arrow arrow-c" aria-expanded="true"><i class="fa fa-sitemap"></i><span>โครงสร้างองค์กร</span></a>
                 </li>
