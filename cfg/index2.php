@@ -89,14 +89,14 @@ Created:  Tue Mar 16 2021
                                     <tr>
                                         <td class="width45"><span class="avatar avatar-green"><i class="fa fa-newspaper-o"></i></span></td>
                                         <td>
-                                            <p class="mb-0">ประกาศ มวล.เรื่อง แนวปฏิบัติการเฝ้าระวังการระบาดของโรคติดเชื้อไวรัสโคโรน่า 2019 (โควิด19) ฉบับที่ 3 </p>
+                                            <p class="mb-0"><a href="#">ประกาศ มวล.เรื่อง แนวปฏิบัติการเฝ้าระวังการระบาดของโรคติดเชื้อไวรัสโคโรน่า 2019 (โควิด19) ฉบับที่ 3 </a></p>
                                             <span class="text-muted font-13">วันที่ประกาศ: 12/03/2564 - อ่าน : 230 </span>											
                                         </td>                                       
                                     </tr>
                                     <tr>
                                         <td class="width45"><span class="avatar avatar-orange"><i class="fa fa-newspaper-o"></i></span></td>
                                         <td>
-                                            <p class="mb-0">กำหนดการและรายละเอียดการสอบ TOEFL ITP วันเสาร์ที่ 6 มีนาคม 2564</p>
+                                            <p class="mb-0"><a href="#">กำหนดการและรายละเอียดการสอบ TOEFL ITP วันเสาร์ที่ 6 มีนาคม 2564</a></p>
                                             <span class="text-muted font-13">วันที่ประกาศ: 12/03/2564 - อ่าน : 567</span>
                                         </td>                                        
                                     </tr>                     
@@ -116,7 +116,7 @@ Created:  Tue Mar 16 2021
                                     <tr>
                                         <td class="width45"><span class="avatar avatar-green"><i class="fa fa-newspaper-o"></i></span></td>
                                         <td>
-                                            <p class="mb-0">ประกาศ มวล.เรื่อง แนวปฏิบัติการเฝ้าระวังการระบาดของโรคติดเชื้อไวรัสโคโรน่า 2019 (โควิด19) ฉบับที่ 3 </p>
+                                            <p class="mb-0"><a href="#">ประกาศ มวล.เรื่อง แนวปฏิบัติการเฝ้าระวังการระบาดของโรคติดเชื้อไวรัสโคโรน่า 2019 (โควิด19) ฉบับที่ 3 </a></p>
                                             <span class="text-muted font-13">วันที่ประกาศ: 12/03/2564 - อ่าน : 230 </span>
                                         </td>
                                        
@@ -124,7 +124,7 @@ Created:  Tue Mar 16 2021
                                     <tr>
                                         <td class="width45"><span class="avatar avatar-orange"><i class="fa fa-newspaper-o"></i></span></td>
                                         <td>
-                                            <p class="mb-0">กำหนดการและรายละเอียดการสอบ TOEFL ITP วันเสาร์ที่ 6 มีนาคม 2564</p>
+                                            <p class="mb-0"><a href="#">กำหนดการและรายละเอียดการสอบ TOEFL ITP วันเสาร์ที่ 6 มีนาคม 2564</a></p>
                                             <span class="text-muted font-13">วันที่ประกาศ: 12/03/2564 - อ่าน : 567</span>
                                         </td>                                        
                                     </tr>
@@ -143,15 +143,8 @@ Created:  Tue Mar 16 2021
         </div>
               </div>    
 </div>
-
-
-
-
     </div>    
 </div>
-
-
-
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">

@@ -45,12 +45,12 @@ Created:  Tue Mar 16 2021
             <a class="nav-link icon d-none d-md-flex btn btn-default btn-icon ml-1" data-toggle="dropdown"><i class="fa fa-user"> ผศ.ดร. สอนดี รักวลัยลักษณ์</i></a>
             <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
                 <a class="dropdown-item" href="../per/HRMS_1_4_edit_personal_1.php"><i class="dropdown-icon fe fe-user"></i> แก้ไขข้อมูลส่วนตัว</a>
-                <a class="dropdown-item" href="app-setting.html"><i class="dropdown-icon fe fe-settings"></i> ตั้งค่าระบบ</a>
+                <!--<a class="dropdown-item" href="app-setting.html"><i class="dropdown-icon fe fe-settings"></i> ตั้งค่าระบบ</a>
                 <a class="dropdown-item" href="javascript:void(0)"><span class="float-right"><span class="badge badge-primary">6</span></span><i class="dropdown-icon fe fe-mail"></i> Inbox</a>
                 <a class="dropdown-item" href="javascript:void(0)"><i class="dropdown-icon fe fe-send"></i> Message</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="javascript:void(0)"><i class="dropdown-icon fe fe-help-circle"></i> ความช่วยเหลือ?</a>
-                <a class="dropdown-item" href="login.html"><i class="dropdown-icon fe fe-log-out"></i> ออกจากระบบ</a>
+                <a class="dropdown-item" href="javascript:void(0)"><i class="dropdown-icon fe fe-help-circle"></i> ความช่วยเหลือ?</a>-->
+                <a class="dropdown-item" href="../cfg/index.php"><i class="dropdown-icon fe fe-log-out"></i> ออกจากระบบ</a>
             </div>
         </div>
     </div>
