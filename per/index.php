@@ -469,7 +469,7 @@
                     <div class="col-lg-4 col-md-4">
                     <div class="card">                        
                             <div class="card-body">
-                                <a href="HRMS_1_13_admin_personal_req.php" class="my_sort_cut text-muted">
+                                <a href="HRMS_1_4_edit_personal_1.php" class="my_sort_cut text-muted">
                                     <i class="icon-credit-card"></i>
                                     <span>สำหรับพนักงาน</span>
                                 </a>

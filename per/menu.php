@@ -19,6 +19,9 @@
                         <li><a href="HRMS_admin_req.php"><span>คำขอเอกสารรับรอง <span class="badge badge-danger">6</span></span></a></li>                       
                     </ul>
                 </li>
+                <li>
+                    <a href="index.php" class="has-arrow arrow-c" aria-expanded="true"><i class="fe fe-log-out""></i><span>เปลี่ยนสิทธิ์</span></a>
+                </li>
 
                <!-- <li>
                     <a href="javascript:void(0)" class="has-arrow arrow-c" aria-expanded="true"><i class="icon-rocket"></i><span>สำหรับพนักงาน</span></a>
