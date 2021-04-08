@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -14,7 +13,7 @@
     <!-- Bootstrap Core and vandor -->
     <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../assets/plugins/jquery-steps/jquery.steps.css">
-    <link rel="stylesheet" href="../assets/plugins/summernote/dist/summernote.css"/>
+    <link rel="stylesheet" href="../assets/plugins/summernote/dist/summernote.css" />
     <link rel="stylesheet" href="../assets/plugins/dropify/css/dropify.min.css">
 
     <link rel="stylesheet" href="../assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" />
@@ -35,42 +34,13 @@
 
     <div id="main_content">
 
-        <div id="header_top" class="header_top">
-            <div class="container">
-                <div class="hleft">
-                    <a class="header-brand" href="index.html"><i class="fe fe-command brand-logo"></i></a>
-                    <div class="dropdown">
-                        <a href="page-search.html" class="nav-link icon"><i class="fa fa-search"></i></a>
-                        <a href="app-calendar.html" class="nav-link icon app_inbox"><i class="fa fa-calendar"></i></a>
-                        <a href="app-contact.html" class="nav-link icon xs-hide"><i class="fa fa-id-card-o"></i></a>
-                        <a href="app-chat.html" class="nav-link icon xs-hide"><i class="fa fa-comments-o"></i></a>
-                        <a href="app-filemanager.html" class="nav-link icon app_file xs-hide"><i
-                                class="fa fa-folder-o"></i></a>
-                    </div>
-                </div>
-                <div class="hright">
-                    <div class="dropdown">
-                        <a href="javascript:void(0)" class="nav-link icon theme_btn"><i class="fa fa-paint-brush"
-                                data-toggle="tooltip" data-placement="right" title="Themes"></i></a>
-                        <a href="javascript:void(0)" class="nav-link icon settingbar"><i class="fa fa-gear fa-spin"
-                                data-toggle="tooltip" data-placement="right" title="Settings"></i></a>
-                        <a href="javascript:void(0)" class="nav-link user_btn"><img class="avatar"
-                                src="../assets/images/user.png" alt="" data-toggle="tooltip" data-placement="right"
-                                title="User Menu" /></a>
-                        <a href="javascript:void(0)" class="nav-link icon menu_toggle"><i
-                                class="fa  fa-align-left"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+
 
         <div id="rightsidebar" class="right_sidebar">
             <a href="javascript:void(0)" class="p-3 settingbar float-right"><i class="fa fa-close"></i></a>
             <ul class="nav nav-tabs" role="tablist">
-                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Settings"
-                        aria-expanded="true">Settings</a></li>
-                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#activity"
-                        aria-expanded="false">Activity</a></li>
+                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Settings" aria-expanded="true">Settings</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#activity" aria-expanded="false">Activity</a></li>
             </ul>
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane vivify fadeIn active" id="Settings" aria-expanded="true">
@@ -82,8 +52,7 @@
                                 <span class="custom-control-label">Open Sans Font</span>
                             </label>
                             <label class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" class="custom-control-input" name="font" value="font-montserrat"
-                                    checked="">
+                                <input type="radio" class="custom-control-input" name="font" value="font-montserrat" checked="">
                                 <span class="custom-control-label">Montserrat Google Font</span>
                             </label>
                             <label class="custom-control custom-radio custom-control-inline">
@@ -104,16 +73,14 @@
                                 <span class="custom-control-label">B</span>
                             </label>
                             <label class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" class="custom-control-input" name="marrow" value="arrow-c"
-                                    checked="">
+                                <input type="radio" class="custom-control-input" name="marrow" value="arrow-c" checked="">
                                 <span class="custom-control-label">C</span>
                             </label>
                         </div>
                         <h6 class="font-14 font-weight-bold mt-4 text-muted">SubMenu List Icon</h6>
                         <div class="custom-controls-stacked list_option">
                             <label class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" class="custom-control-input" name="listicon" value="list-a"
-                                    checked="">
+                                <input type="radio" class="custom-control-input" name="listicon" value="list-a" checked="">
                                 <span class="custom-control-label">A</span>
                             </label>
                             <label class="custom-control custom-radio custom-control-inline">
@@ -132,80 +99,70 @@
                             <li>
                                 <label class="custom-switch">
                                     <span class="custom-switch-description">Night Mode</span>
-                                    <input type="checkbox" name="custom-switch-checkbox"
-                                        class="custom-switch-input btn-darkmode">
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-darkmode">
                                     <span class="custom-switch-indicator"></span>
                                 </label>
                             </li>
                             <li>
                                 <label class="custom-switch">
                                     <span class="custom-switch-description">Fix Navbar top</span>
-                                    <input type="checkbox" name="custom-switch-checkbox"
-                                        class="custom-switch-input btn-fixnavbar">
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-fixnavbar">
                                     <span class="custom-switch-indicator"></span>
                                 </label>
                             </li>
                             <li>
                                 <label class="custom-switch">
                                     <span class="custom-switch-description">Header Dark</span>
-                                    <input type="checkbox" name="custom-switch-checkbox"
-                                        class="custom-switch-input btn-pageheader">
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-pageheader">
                                     <span class="custom-switch-indicator"></span>
                                 </label>
                             </li>
                             <li>
                                 <label class="custom-switch">
                                     <span class="custom-switch-description">Min Sidebar Dark</span>
-                                    <input type="checkbox" name="custom-switch-checkbox"
-                                        class="custom-switch-input btn-min_sidebar">
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-min_sidebar">
                                     <span class="custom-switch-indicator"></span>
                                 </label>
                             </li>
                             <li>
                                 <label class="custom-switch">
                                     <span class="custom-switch-description">Sidebar Dark</span>
-                                    <input type="checkbox" name="custom-switch-checkbox"
-                                        class="custom-switch-input btn-sidebar" checked="">
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-sidebar" checked="">
                                     <span class="custom-switch-indicator"></span>
                                 </label>
                             </li>
                             <li>
                                 <label class="custom-switch">
                                     <span class="custom-switch-description">Icon Color</span>
-                                    <input type="checkbox" name="custom-switch-checkbox"
-                                        class="custom-switch-input btn-iconcolor">
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-iconcolor">
                                     <span class="custom-switch-indicator"></span>
                                 </label>
                             </li>
                             <li>
                                 <label class="custom-switch">
                                     <span class="custom-switch-description">Gradient Color</span>
-                                    <input type="checkbox" name="custom-switch-checkbox"
-                                        class="custom-switch-input btn-gradient">
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-gradient">
                                     <span class="custom-switch-indicator"></span>
                                 </label>
                             </li>
                             <li>
                                 <label class="custom-switch">
                                     <span class="custom-switch-description">Box Shadow</span>
-                                    <input type="checkbox" name="custom-switch-checkbox"
-                                        class="custom-switch-input btn-boxshadow">
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-boxshadow">
                                     <span class="custom-switch-indicator"></span>
                                 </label>
                             </li>
                             <li>
                                 <label class="custom-switch">
                                     <span class="custom-switch-description">RTL Support</span>
-                                    <input type="checkbox" name="custom-switch-checkbox"
-                                        class="custom-switch-input btn-rtl">
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-rtl">
                                     <span class="custom-switch-indicator"></span>
                                 </label>
                             </li>
                             <li>
                                 <label class="custom-switch">
                                     <span class="custom-switch-description">Box Layout</span>
-                                    <input type="checkbox" name="custom-switch-checkbox"
-                                        class="custom-switch-input btn-boxlayout">
+                                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input btn-boxlayout">
                                     <span class="custom-switch-indicator"></span>
                                 </label>
                             </li>
@@ -215,8 +172,7 @@
                     <div class="form-group">
                         <label class="d-block">Storage <span class="float-right">77%</span></label>
                         <div class="progress progress-sm">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="77" aria-valuemin="0"
-                                aria-valuemax="100" style="width: 77%;"></div>
+                            <div class="progress-bar" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100" style="width: 77%;"></div>
                         </div>
                         <button type="button" class="btn btn-primary btn-block mt-3">Upgrade Storage</button>
                     </div>
@@ -287,38 +243,31 @@
                     <ul class="list-group list-unstyled">
                         <li class="list-group-item mb-2">
                             <p>Default Theme</p>
-                            <a href="../main/index.html"><img src="../assets/images/themes/default.png"
-                                    class="img-fluid" /></a>
+                            <a href="../main/index.html"><img src="../assets/images/themes/default.png" class="img-fluid" /></a>
                         </li>
                         <li class="list-group-item mb-2">
                             <p>Night Mode Theme</p>
-                            <a href="../dark/index.html"><img src="../assets/images/themes/dark.png"
-                                    class="img-fluid" /></a>
+                            <a href="../dark/index.html"><img src="../assets/images/themes/dark.png" class="img-fluid" /></a>
                         </li>
                         <li class="list-group-item mb-2">
                             <p>RTL Version</p>
-                            <a href="../rtl/index.html"><img src="../assets/images/themes/rtl.png"
-                                    class="img-fluid" /></a>
+                            <a href="../rtl/index.html"><img src="../assets/images/themes/rtl.png" class="img-fluid" /></a>
                         </li>
                         <li class="list-group-item mb-2">
                             <p>Theme Version2</p>
-                            <a href="../theme2/index.html"><img src="../assets/images/themes/theme2.png"
-                                    class="img-fluid" /></a>
+                            <a href="../theme2/index.html"><img src="../assets/images/themes/theme2.png" class="img-fluid" /></a>
                         </li>
                         <li class="list-group-item mb-2">
                             <p>Theme Version3</p>
-                            <a href="../theme3/index.html"><img src="../assets/images/themes/theme3.png"
-                                    class="img-fluid" /></a>
+                            <a href="../theme3/index.html"><img src="../assets/images/themes/theme3.png" class="img-fluid" /></a>
                         </li>
                         <li class="list-group-item mb-2">
                             <p>Theme Version4</p>
-                            <a href="../theme4/index.html"><img src="../assets/images/themes/theme4.png"
-                                    class="img-fluid" /></a>
+                            <a href="../theme4/index.html"><img src="../assets/images/themes/theme4.png" class="img-fluid" /></a>
                         </li>
                         <li class="list-group-item mb-2">
                             <p>Horizontal Version</p>
-                            <a href="../horizontal/index.html"><img src="../assets/images/themes/horizontal.png"
-                                    class="img-fluid" /></a>
+                            <a href="../horizontal/index.html"><img src="../assets/images/themes/horizontal.png" class="img-fluid" /></a>
                         </li>
                     </ul>
                 </div>
@@ -326,8 +275,7 @@
         </div>
 
         <div class="user_div">
-            <h5 class="brand-name mb-4">WU-HRMS<a href="javascript:void(0)" class="user_btn"><i
-                        class="icon-logout"></i></a></h5>
+            <h5 class="brand-name mb-4">WU-HRMS<a href="javascript:void(0)" class="user_btn"><i class="icon-logout"></i></a></h5>
             <div class="card">
                 <div class="card-body">
                     <div class="media">
@@ -336,14 +284,10 @@
                             <h5 class="m-0">Sara Hopkins</h5>
                             <p class="text-muted mb-0">Webdeveloper</p>
                             <ul class="social-links list-inline mb-0 mt-2">
-                                <li class="list-inline-item"><a href="javascript:void(0)" title="" data-toggle="tooltip"
-                                        data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)" title="" data-toggle="tooltip"
-                                        data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)" title="" data-toggle="tooltip"
-                                        data-original-title="1234567890"><i class="fa fa-phone"></i></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)" title="" data-toggle="tooltip"
-                                        data-original-title="@skypename"><i class="fa fa-skype"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" title="" data-toggle="tooltip" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" title="" data-toggle="tooltip" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" title="" data-toggle="tooltip" data-original-title="1234567890"><i class="fa fa-phone"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" title="" data-toggle="tooltip" data-original-title="@skypename"><i class="fa fa-skype"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -353,8 +297,7 @@
                 <div class="card-header">
                     <h3 class="card-title">Statistics</h3>
                     <div class="card-options">
-                        <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i
-                                class="fe fe-chevron-up"></i></a>
+                        <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
                         <a href="#" class="card-options-remove" data-toggle="card-remove"><i class="fe fe-x"></i></a>
                     </div>
                 </div>
@@ -374,22 +317,19 @@
                     <div class="form-group">
                         <label class="d-block">Total Income<span class="float-right">77%</span></label>
                         <div class="progress progress-xs">
-                            <div class="progress-bar bg-blue" role="progressbar" aria-valuenow="77" aria-valuemin="0"
-                                aria-valuemax="100" style="width: 77%;"></div>
+                            <div class="progress-bar bg-blue" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100" style="width: 77%;"></div>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="d-block">Total Expenses <span class="float-right">50%</span></label>
                         <div class="progress progress-xs">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-                                aria-valuemax="100" style="width: 50%;"></div>
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
                         </div>
                     </div>
                     <div class="form-group mb-0">
                         <label class="d-block">Gross Profit <span class="float-right">23%</span></label>
                         <div class="progress progress-xs">
-                            <div class="progress-bar bg-green" role="progressbar" aria-valuenow="23" aria-valuemin="0"
-                                aria-valuemax="100" style="width: 23%;"></div>
+                            <div class="progress-bar bg-green" role="progressbar" aria-valuenow="23" aria-valuemin="0" aria-valuemax="100" style="width: 23%;"></div>
                         </div>
                     </div>
                 </div>
@@ -398,8 +338,7 @@
                 <div class="card-header">
                     <h3 class="card-title">Friends</h3>
                     <div class="card-options">
-                        <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i
-                                class="fe fe-chevron-up"></i></a>
+                        <a href="#" class="card-options-collapse" data-toggle="card-collapse"><i class="fe fe-chevron-up"></i></a>
                         <a href="#" class="card-options-remove" data-toggle="card-remove"><i class="fe fe-x"></i></a>
                     </div>
                 </div>
@@ -481,7 +420,11 @@
                 </ul>
             </div>
         </div>
+<<<<<<< HEAD
 		<?php include "menu_per.php";?>
+=======
+        <?php include "menu.php"; ?>
+>>>>>>> 7ba9f73aa695ead28a7f35b7fcee6061f80e20c0
 
         <div class="page">
             <div class="section-body">
@@ -493,35 +436,26 @@
                         <div class="right">
                             <ul class="nav nav-pills">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                                        aria-haspopup="true" aria-expanded="false">Language</a>
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Language</a>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#"><img class="w20 mr-2"
-                                                src="../assets/images/flags/us.svg">English</a>
+                                        <a class="dropdown-item" href="#"><img class="w20 mr-2" src="../assets/images/flags/us.svg">English</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#"><img class="w20 mr-2"
-                                                src="../assets/images/flags/es.svg">Spanish</a>
-                                        <a class="dropdown-item" href="#"><img class="w20 mr-2"
-                                                src="../assets/images/flags/jp.svg">japanese</a>
-                                        <a class="dropdown-item" href="#"><img class="w20 mr-2"
-                                                src="../assets/images/flags/bl.svg">France</a>
+                                        <a class="dropdown-item" href="#"><img class="w20 mr-2" src="../assets/images/flags/es.svg">Spanish</a>
+                                        <a class="dropdown-item" href="#"><img class="w20 mr-2" src="../assets/images/flags/jp.svg">japanese</a>
+                                        <a class="dropdown-item" href="#"><img class="w20 mr-2" src="../assets/images/flags/bl.svg">France</a>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                                        aria-haspopup="true" aria-expanded="false">Reports</a>
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Reports</a>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#"><i
-                                                class="dropdown-icon fa fa-file-excel-o"></i> MS Excel</a>
-                                        <a class="dropdown-item" href="#"><i
-                                                class="dropdown-icon fa fa-file-word-o"></i> MS Word</a>
+                                        <a class="dropdown-item" href="#"><i class="dropdown-icon fa fa-file-excel-o"></i> MS Excel</a>
+                                        <a class="dropdown-item" href="#"><i class="dropdown-icon fa fa-file-word-o"></i> MS Word</a>
                                         <a class="dropdown-item" href="#"><i class="dropdown-icon fa fa-file-pdf-o"></i>
                                             PDF</a>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                                        aria-haspopup="true" aria-expanded="false">Project</a>
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Project</a>
                                     <div class="dropdown-menu">
                                         <a class="dropdown-item" href="#">Graphics Design</a>
                                         <a class="dropdown-item" href="#">Angular Admin</a>
@@ -535,16 +469,13 @@
                             </ul>
                             <div class="notification d-flex">
                                 <div class="dropdown d-flex">
-                                    <a class="nav-link icon d-none d-md-flex btn btn-default btn-icon ml-1"
-                                        data-toggle="dropdown"><i class="fa fa-envelope"></i><span
-                                            class="badge badge-success nav-unread"></span></a>
+                                    <a class="nav-link icon d-none d-md-flex btn btn-default btn-icon ml-1" data-toggle="dropdown"><i class="fa fa-envelope"></i><span class="badge badge-success nav-unread"></span></a>
                                     <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
                                         <ul class="right_chat list-unstyled w250 p-0">
                                             <li class="online">
                                                 <a href="javascript:void(0);">
                                                     <div class="media">
-                                                        <img class="media-object " src="../assets/images/xs/avatar4.jpg"
-                                                            alt="">
+                                                        <img class="media-object " src="../assets/images/xs/avatar4.jpg" alt="">
                                                         <div class="media-body">
                                                             <span class="name">Donald Gardner</span>
                                                             <span class="message">Designer, Blogger</span>
@@ -556,8 +487,7 @@
                                             <li class="online">
                                                 <a href="javascript:void(0);">
                                                     <div class="media">
-                                                        <img class="media-object " src="../assets/images/xs/avatar5.jpg"
-                                                            alt="">
+                                                        <img class="media-object " src="../assets/images/xs/avatar5.jpg" alt="">
                                                         <div class="media-body">
                                                             <span class="name">Wendy Keen</span>
                                                             <span class="message">Java Developer</span>
@@ -569,8 +499,7 @@
                                             <li class="offline">
                                                 <a href="javascript:void(0);">
                                                     <div class="media">
-                                                        <img class="media-object " src="../assets/images/xs/avatar2.jpg"
-                                                            alt="">
+                                                        <img class="media-object " src="../assets/images/xs/avatar2.jpg" alt="">
                                                         <div class="media-body">
                                                             <span class="name">Matt Rosales</span>
                                                             <span class="message">CEO, Epic Theme</span>
@@ -582,8 +511,7 @@
                                             <li class="online">
                                                 <a href="javascript:void(0);">
                                                     <div class="media">
-                                                        <img class="media-object " src="../assets/images/xs/avatar3.jpg"
-                                                            alt="">
+                                                        <img class="media-object " src="../assets/images/xs/avatar3.jpg" alt="">
                                                         <div class="media-body">
                                                             <span class="name">Phillip Smith</span>
                                                             <span class="message">Writter, Mag Editor</span>
@@ -594,82 +522,65 @@
                                             </li>
                                         </ul>
                                         <div class="dropdown-divider"></div>
-                                        <a href="javascript:void(0)"
-                                            class="dropdown-item text-center text-muted-dark readall">Mark all as
+                                        <a href="javascript:void(0)" class="dropdown-item text-center text-muted-dark readall">Mark all as
                                             read</a>
                                     </div>
                                 </div>
                                 <div class="dropdown d-flex">
-                                    <a class="nav-link icon d-none d-md-flex btn btn-default btn-icon ml-1"
-                                        data-toggle="dropdown"><i class="fa fa-bell"></i><span
-                                            class="badge badge-primary nav-unread"></span></a>
+                                    <a class="nav-link icon d-none d-md-flex btn btn-default btn-icon ml-1" data-toggle="dropdown"><i class="fa fa-bell"></i><span class="badge badge-primary nav-unread"></span></a>
                                     <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
                                         <ul class="list-unstyled feeds_widget">
                                             <li>
                                                 <div class="feeds-left"><i class="fa fa-thumbs-o-up"></i></div>
                                                 <div class="feeds-body">
-                                                    <h4 class="title">7 New Feedback <small
-                                                            class="float-right text-muted">Today</small></h4>
+                                                    <h4 class="title">7 New Feedback <small class="float-right text-muted">Today</small></h4>
                                                     <small>It will give a smart finishing to your site</small>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="feeds-left"><i class="fa fa-user"></i></div>
                                                 <div class="feeds-body">
-                                                    <h4 class="title">New User <small
-                                                            class="float-right text-muted">10:45</small></h4>
+                                                    <h4 class="title">New User <small class="float-right text-muted">10:45</small></h4>
                                                     <small>I feel great! Thanks team</small>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="feeds-left"><i class="fa fa-question-circle"></i></div>
                                                 <div class="feeds-body">
-                                                    <h4 class="title text-warning">Server Warning <small
-                                                            class="float-right text-muted">10:50</small></h4>
+                                                    <h4 class="title text-warning">Server Warning <small class="float-right text-muted">10:50</small></h4>
                                                     <small>Your connection is not private</small>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="feeds-left"><i class="fa fa-check"></i></div>
                                                 <div class="feeds-body">
-                                                    <h4 class="title text-danger">Issue Fixed <small
-                                                            class="float-right text-muted">11:05</small></h4>
+                                                    <h4 class="title text-danger">Issue Fixed <small class="float-right text-muted">11:05</small></h4>
                                                     <small>WE have fix all Design bug with Responsive</small>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="feeds-left"><i class="fa fa-shopping-cart"></i></div>
                                                 <div class="feeds-body">
-                                                    <h4 class="title">7 New Orders <small
-                                                            class="float-right text-muted">11:35</small></h4>
+                                                    <h4 class="title">7 New Orders <small class="float-right text-muted">11:35</small></h4>
                                                     <small>You received a new oder from Tina.</small>
                                                 </div>
                                             </li>
                                         </ul>
                                         <div class="dropdown-divider"></div>
-                                        <a href="javascript:void(0)"
-                                            class="dropdown-item text-center text-muted-dark readall">Mark all as
+                                        <a href="javascript:void(0)" class="dropdown-item text-center text-muted-dark readall">Mark all as
                                             read</a>
                                     </div>
                                 </div>
                                 <div class="dropdown d-flex">
-                                    <a class="nav-link icon d-none d-md-flex btn btn-default btn-icon ml-1"
-                                        data-toggle="dropdown"><i class="fa fa-user"></i></a>
+                                    <a class="nav-link icon d-none d-md-flex btn btn-default btn-icon ml-1" data-toggle="dropdown"><i class="fa fa-user"></i></a>
                                     <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-                                        <a class="dropdown-item" href="page-profile.html"><i
-                                                class="dropdown-icon fe fe-user"></i> Profile</a>
-                                        <a class="dropdown-item" href="app-setting.html"><i
-                                                class="dropdown-icon fe fe-settings"></i> Settings</a>
-                                        <a class="dropdown-item" href="javascript:void(0)"><span
-                                                class="float-right"><span class="badge badge-primary">6</span></span><i
-                                                class="dropdown-icon fe fe-mail"></i> Inbox</a>
-                                        <a class="dropdown-item" href="javascript:void(0)"><i
-                                                class="dropdown-icon fe fe-send"></i> Message</a>
+                                        <a class="dropdown-item" href="page-profile.html"><i class="dropdown-icon fe fe-user"></i> Profile</a>
+                                        <a class="dropdown-item" href="app-setting.html"><i class="dropdown-icon fe fe-settings"></i> Settings</a>
+                                        <a class="dropdown-item" href="javascript:void(0)"><span class="float-right"><span class="badge badge-primary">6</span></span><i class="dropdown-icon fe fe-mail"></i> Inbox</a>
+                                        <a class="dropdown-item" href="javascript:void(0)"><i class="dropdown-icon fe fe-send"></i> Message</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="javascript:void(0)"><i
-                                                class="dropdown-icon fe fe-help-circle"></i> Need help?</a>
-                                        <a class="dropdown-item" href="login.html"><i
-                                                class="dropdown-icon fe fe-log-out"></i> Sign out</a>
+                                        <a class="dropdown-item" href="javascript:void(0)"><i class="dropdown-icon fe fe-help-circle"></i> Need help?</a>
+                                        <a class="dropdown-item" href="login.html"><i class="dropdown-icon fe fe-log-out"></i> Sign out</a>
                                     </div>
                                 </div>
                             </div>
@@ -678,7 +589,7 @@
                 </div>
             </div>
             <div class="section-body mt-3">
-                
+
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12">
@@ -697,11 +608,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>                            
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-12 col-lg-12">
-                            
+
                             <div class="card">
                                 <div class="card-tabs">
                                     <a href="HRMS_1_4_edit_personal_1.php" class="card-tabs-item text-center">
@@ -736,29 +647,25 @@
                                     <div class="col-md-3 col-lg-3">
                                         <div class="form-group">
                                             <label class="form-label">ชื่อ</label>
-                                            <input type="text" class="form-control" name="example-text-input"
-                                                placeholder="Text..">
+                                            <input type="text" class="form-control" name="example-text-input" placeholder="Text..">
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-lg-3">
                                         <div class="form-group">
                                             <label class="form-label">ชื่อกลาง (ถ้ามี)</label>
-                                            <input type="text" class="form-control" name="example-text-input"
-                                                placeholder="Text..">
+                                            <input type="text" class="form-control" name="example-text-input" placeholder="Text..">
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-lg-3">
                                         <div class="form-group">
                                             <label class="form-label">นามสกุล</label>
-                                            <input type="text" class="form-control" name="example-text-input"
-                                                placeholder="Text..">
+                                            <input type="text" class="form-control" name="example-text-input" placeholder="Text..">
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-lg-4">
                                         <div class="form-group">
                                             <label class="form-label">เลขประจำตัวประชาชน</label>
-                                            <input type="text" class="form-control" name="example-text-input"
-                                                placeholder="Text..">
+                                            <input type="text" class="form-control" name="example-text-input" placeholder="Text..">
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-lg-4">
@@ -768,8 +675,7 @@
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text"><i class="icon-calendar"></i></span>
                                                 </div>
-                                                <input data-provide="datepicker" data-date-autoclose="true" type="text"
-                                                    class="form-control date" placeholder="วัน/เดือน/ปี">
+                                                <input data-provide="datepicker" data-date-autoclose="true" type="text" class="form-control date" placeholder="วัน/เดือน/ปี">
                                             </div>
                                         </div>
                                     </div>
@@ -802,29 +708,25 @@
                                     <div class="col-md-3 col-lg-3">
                                         <div class="form-group">
                                             <label class="form-label">ชื่อ</label>
-                                            <input type="text" class="form-control" name="example-text-input"
-                                                placeholder="Text..">
+                                            <input type="text" class="form-control" name="example-text-input" placeholder="Text..">
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-lg-3">
                                         <div class="form-group">
                                             <label class="form-label">ชื่อกลาง (ถ้ามี)</label>
-                                            <input type="text" class="form-control" name="example-text-input"
-                                                placeholder="Text..">
+                                            <input type="text" class="form-control" name="example-text-input" placeholder="Text..">
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-lg-3">
                                         <div class="form-group">
                                             <label class="form-label">นามสกุล</label>
-                                            <input type="text" class="form-control" name="example-text-input"
-                                                placeholder="Text..">
+                                            <input type="text" class="form-control" name="example-text-input" placeholder="Text..">
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-lg-4">
                                         <div class="form-group">
                                             <label class="form-label">เลขประจำตัวประชาชน</label>
-                                            <input type="text" class="form-control" name="example-text-input"
-                                                placeholder="Text..">
+                                            <input type="text" class="form-control" name="example-text-input" placeholder="Text..">
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-lg-4">
@@ -834,8 +736,7 @@
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text"><i class="icon-calendar"></i></span>
                                                 </div>
-                                                <input data-provide="datepicker" data-date-autoclose="true" type="text"
-                                                    class="form-control date" placeholder="วัน/เดือน/ปี">
+                                                <input data-provide="datepicker" data-date-autoclose="true" type="text" class="form-control date" placeholder="วัน/เดือน/ปี">
                                             </div>
                                         </div>
                                     </div>
@@ -860,7 +761,7 @@
                                                 <input type="radio" class="custom-control-input" name="gender" value="male" required="" data-parsley-errors-container="#error-radio" data-parsley-multiple="gender">
                                                 <span class="custom-control-label">โสด</span>
                                             </label>
-    
+
                                             <label class="custom-control custom-radio custom-control-inline">
                                                 <input type="radio" class="custom-control-input" name="gender" value="female" data-parsley-multiple="gender">
                                                 <span class="custom-control-label">สมรส</span>
@@ -894,29 +795,25 @@
                                     <div class="col-md-3 col-lg-3">
                                         <div class="form-group">
                                             <label class="form-label">ชื่อ</label>
-                                            <input type="text" class="form-control" name="example-text-input"
-                                                placeholder="Text..">
+                                            <input type="text" class="form-control" name="example-text-input" placeholder="Text..">
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-lg-3">
                                         <div class="form-group">
                                             <label class="form-label">ชื่อกลาง (ถ้ามี)</label>
-                                            <input type="text" class="form-control" name="example-text-input"
-                                                placeholder="Text..">
+                                            <input type="text" class="form-control" name="example-text-input" placeholder="Text..">
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-lg-3">
                                         <div class="form-group">
                                             <label class="form-label">นามสกุล</label>
-                                            <input type="text" class="form-control" name="example-text-input"
-                                                placeholder="Text..">
+                                            <input type="text" class="form-control" name="example-text-input" placeholder="Text..">
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-lg-4">
                                         <div class="form-group">
                                             <label class="form-label">เลขประจำตัวประชาชน</label>
-                                            <input type="text" class="form-control" name="example-text-input"
-                                                placeholder="Text..">
+                                            <input type="text" class="form-control" name="example-text-input" placeholder="Text..">
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-lg-4">
@@ -926,8 +823,7 @@
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text"><i class="icon-calendar"></i></span>
                                                 </div>
-                                                <input data-provide="datepicker" data-date-autoclose="true" type="text"
-                                                    class="form-control date" placeholder="วัน/เดือน/ปี">
+                                                <input data-provide="datepicker" data-date-autoclose="true" type="text" class="form-control date" placeholder="วัน/เดือน/ปี">
                                             </div>
                                         </div>
                                     </div>
@@ -983,8 +879,7 @@
                                                         <div class="input-group-prepend">
                                                             <span class="input-group-text"><i class="icon-calendar"></i></span>
                                                         </div>
-                                                        <input data-provide="datepicker" data-date-autoclose="true" type="text"
-                                                            class="form-control date" placeholder="วัน/เดือน/ปี">
+                                                        <input data-provide="datepicker" data-date-autoclose="true" type="text" class="form-control date" placeholder="วัน/เดือน/ปี">
                                                     </div>
                                                 </td>
                                                 <td>
@@ -1021,8 +916,7 @@
                                                         <div class="input-group-prepend">
                                                             <span class="input-group-text"><i class="icon-calendar"></i></span>
                                                         </div>
-                                                        <input data-provide="datepicker" data-date-autoclose="true" type="text"
-                                                            class="form-control date" placeholder="วัน/เดือน/ปี">
+                                                        <input data-provide="datepicker" data-date-autoclose="true" type="text" class="form-control date" placeholder="วัน/เดือน/ปี">
                                                     </div>
                                                 </td>
                                                 <td>
@@ -1059,8 +953,7 @@
                                                         <div class="input-group-prepend">
                                                             <span class="input-group-text"><i class="icon-calendar"></i></span>
                                                         </div>
-                                                        <input data-provide="datepicker" data-date-autoclose="true" type="text"
-                                                            class="form-control date" placeholder="วัน/เดือน/ปี">
+                                                        <input data-provide="datepicker" data-date-autoclose="true" type="text" class="form-control date" placeholder="วัน/เดือน/ปี">
                                                     </div>
                                                 </td>
                                                 <td>
@@ -1097,8 +990,7 @@
                                                         <div class="input-group-prepend">
                                                             <span class="input-group-text"><i class="icon-calendar"></i></span>
                                                         </div>
-                                                        <input data-provide="datepicker" data-date-autoclose="true" type="text"
-                                                            class="form-control date" placeholder="วัน/เดือน/ปี">
+                                                        <input data-provide="datepicker" data-date-autoclose="true" type="text" class="form-control date" placeholder="วัน/เดือน/ปี">
                                                     </div>
                                                 </td>
                                                 <td>
@@ -1117,7 +1009,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>

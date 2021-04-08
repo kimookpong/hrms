@@ -3,7 +3,12 @@
         <nav id="left-sidebar-nav" class="sidebar-nav">
             <ul class="metismenu">
 
+<<<<<<< HEAD
                 <!--<li class="active">
+=======
+
+                <li class="active">
+>>>>>>> 7ba9f73aa695ead28a7f35b7fcee6061f80e20c0
                     <a href="javascript:void(0)" class="has-arrow arrow-c" aria-expanded="true"><i class="icon-rocket"></i><span>ตั้งค่าระบบ</span></a>
                     <ul aria-expanded="false" class="collapse" style="">
                         <li><a href="module.php"><span>ชื่อโมดูล</span></a></li>

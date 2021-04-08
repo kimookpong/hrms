@@ -78,7 +78,6 @@
                                 <tr>
                                     <th width="5%">#</th>
                                     <th width="20%">ลำดับ</th>
-                                    <th width="20%">อยู่ภายใต้เมนู</th>
                                     <th width="70%">ฟั่งชั่น</th>
                                 </tr>
                                 <tr>
@@ -94,14 +93,6 @@
                                             <option>8</option>
                                         </select></th>
                                     <th>บันทึกข้อมูล</th>
-                                    <th> <select class="custom-select">
-                                            <option>เมนูหลัก</option>
-                                            <option>บันทึกข้อมูล</option>
-                                            <option>คำร้องขอลา</option>
-                                            <option>บันทึกคำร้องขอปฏิบัติงานนอกเวลา</option>
-                                            <option>บันทึกคำร้องขอเบิกค่าตอบแทน OT</option>
-                                        </select></th>
-
                                 </tr>
                                 <tr>
                                     <th><input type="checkbox"> </th>
@@ -117,13 +108,6 @@
                                         </select></th>
                                     <th>คำร้องขอลา
                                     </th>
-                                    <th> <select class="custom-select">
-                                            <option>เมนูหลัก</option>
-                                            <option>บันทึกข้อมูล</option>
-                                            <option>คำร้องขอลา</option>
-                                            <option>บันทึกคำร้องขอปฏิบัติงานนอกเวลา</option>
-                                            <option>บันทึกคำร้องขอเบิกค่าตอบแทน OT</option>
-                                        </select></th>
                                 </tr>
                                 <tr>
                                     <th><input type="checkbox"> </th>
@@ -137,14 +121,8 @@
                                             <option>7</option>
                                             <option>8</option>
                                         </select></th>
-                                    <th>บันทึกคำร้องขอปฏิบัติงานนอกเวลา </th>
-                                    <th> <select class="custom-select">
-                                            <option>เมนูหลัก</option>
-                                            <option>บันทึกข้อมูล</option>
-                                            <option>คำร้องขอลา</option>
-                                            <option>บันทึกคำร้องขอปฏิบัติงานนอกเวลา</option>
-                                            <option>บันทึกคำร้องขอเบิกค่าตอบแทน OT</option>
-                                        </select></th>
+                                    <th>บันทึกคำร้องขอปฏิบัติงานนอกเวลา
+                                    </th>
                                 </tr>
                                 <tr>
                                     <th><input type="checkbox"> </th>
@@ -158,14 +136,8 @@
                                             <option>7</option>
                                             <option>8</option>
                                         </select></th>
-                                    <th>บันทึกคำร้องขอเบิกค่าตอบแทน OT </th>
-                                    <th> <select class="custom-select">
-                                            <option>เมนูหลัก</option>
-                                            <option>บันทึกข้อมูล</option>
-                                            <option>คำร้องขอลา</option>
-                                            <option>บันทึกคำร้องขอปฏิบัติงานนอกเวลา</option>
-                                            <option>บันทึกคำร้องขอเบิกค่าตอบแทน OT</option>
-                                        </select></th>
+                                    <th>บันทึกคำร้องขอเบิกค่าตอบแทน OT
+                                    </th>
                                 </tr>
                             </table>
 

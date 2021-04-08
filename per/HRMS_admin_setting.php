@@ -1,3 +1,10 @@
+<!--
+Author: Mr. Hakim Mudor
+FileName: HRMS_admin_personal_setting.php
+Desc: description
+Created:  Fri Mar 26 2021
+-->
+
 <!doctype html>
 <html lang="en" dir="ltr">
 
@@ -8,17 +15,14 @@
 
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-    <title>:: Epic :: Form Wizard</title>
+    <title>:: Epic :: HR Employee</title>
 
     <!-- Bootstrap Core and vandor -->
     <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../assets/plugins/jquery-steps/jquery.steps.css">
-    <link rel="stylesheet" href="../assets/plugins/summernote/dist/summernote.css" />
+    <link rel="stylesheet" href="../assets/plugins/sweetalert/sweetalert.css">
+    <link rel="stylesheet" href="../assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
     <link rel="stylesheet" href="../assets/plugins/dropify/css/dropify.min.css">
-
-    <link rel="stylesheet" href="../assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" />
-
-    <link rel="stylesheet" href="../assets/plugins/multi-select/css/multi-select.css">
+    <link rel="stylesheet" href="../assets/plugins/bootstrap-multiselect/bootstrap-multiselect.css">
 
     <!-- Core css -->
     <link rel="stylesheet" href="../assets/css/main.css" />
@@ -31,7 +35,6 @@
         <div class="loader">
         </div>
     </div>
-
     <div id="main_content">
 
 
@@ -275,7 +278,7 @@
         </div>
 
         <div class="user_div">
-            <h5 class="brand-name mb-4">WU-HRMS<a href="javascript:void(0)" class="user_btn"><i class="icon-logout"></i></a></h5>
+            <h5 class="brand-name mb-4">Epic HR<a href="javascript:void(0)" class="user_btn"><i class="icon-logout"></i></a></h5>
             <div class="card">
                 <div class="card-body">
                     <div class="media">
@@ -423,11 +426,11 @@
         <?php include "menu.php"; ?>
 
         <div class="page">
-            <div class="section-body">
+            <div id="page_top" class="section-body ">
                 <div class="container-fluid">
                     <div class="page-header">
                         <div class="left">
-                            <h1 class="page-title">แก้ไขวีซ่าสำหรับบุคลากรต่างชาติ (Work permit)</h1>
+                            <h1 class="page-title">ตั้งค่าระบบ</h1>
                         </div>
                         <div class="right">
                             <ul class="nav nav-pills">
@@ -446,8 +449,7 @@
                                     <div class="dropdown-menu">
                                         <a class="dropdown-item" href="#"><i class="dropdown-icon fa fa-file-excel-o"></i> MS Excel</a>
                                         <a class="dropdown-item" href="#"><i class="dropdown-icon fa fa-file-word-o"></i> MS Word</a>
-                                        <a class="dropdown-item" href="#"><i class="dropdown-icon fa fa-file-pdf-o"></i>
-                                            PDF</a>
+                                        <a class="dropdown-item" href="#"><i class="dropdown-icon fa fa-file-pdf-o"></i> PDF</a>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
@@ -518,8 +520,7 @@
                                             </li>
                                         </ul>
                                         <div class="dropdown-divider"></div>
-                                        <a href="javascript:void(0)" class="dropdown-item text-center text-muted-dark readall">Mark all as
-                                            read</a>
+                                        <a href="javascript:void(0)" class="dropdown-item text-center text-muted-dark readall">Mark all as read</a>
                                     </div>
                                 </div>
                                 <div class="dropdown d-flex">
@@ -527,10 +528,10 @@
                                     <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
                                         <ul class="list-unstyled feeds_widget">
                                             <li>
-                                                <div class="feeds-left"><i class="fa fa-thumbs-o-up"></i></div>
+                                                <div class="feeds-left"><i class="fa fa-check"></i></div>
                                                 <div class="feeds-body">
-                                                    <h4 class="title">7 New Feedback <small class="float-right text-muted">Today</small></h4>
-                                                    <small>It will give a smart finishing to your site</small>
+                                                    <h4 class="title text-danger">Issue Fixed <small class="float-right text-muted">11:05</small></h4>
+                                                    <small>WE have fix all Design bug with Responsive</small>
                                                 </div>
                                             </li>
                                             <li>
@@ -541,17 +542,17 @@
                                                 </div>
                                             </li>
                                             <li>
+                                                <div class="feeds-left"><i class="fa fa-thumbs-o-up"></i></div>
+                                                <div class="feeds-body">
+                                                    <h4 class="title">7 New Feedback <small class="float-right text-muted">Today</small></h4>
+                                                    <small>It will give a smart finishing to your site</small>
+                                                </div>
+                                            </li>
+                                            <li>
                                                 <div class="feeds-left"><i class="fa fa-question-circle"></i></div>
                                                 <div class="feeds-body">
                                                     <h4 class="title text-warning">Server Warning <small class="float-right text-muted">10:50</small></h4>
                                                     <small>Your connection is not private</small>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="feeds-left"><i class="fa fa-check"></i></div>
-                                                <div class="feeds-body">
-                                                    <h4 class="title text-danger">Issue Fixed <small class="float-right text-muted">11:05</small></h4>
-                                                    <small>WE have fix all Design bug with Responsive</small>
                                                 </div>
                                             </li>
                                             <li>
@@ -563,8 +564,7 @@
                                             </li>
                                         </ul>
                                         <div class="dropdown-divider"></div>
-                                        <a href="javascript:void(0)" class="dropdown-item text-center text-muted-dark readall">Mark all as
-                                            read</a>
+                                        <a href="javascript:void(0)" class="dropdown-item text-center text-muted-dark readall">Mark all as read</a>
                                     </div>
                                 </div>
                                 <div class="dropdown d-flex">
@@ -584,114 +584,195 @@
                     </div>
                 </div>
             </div>
-            <div class="section-body mt-3">
-
+            <div class="section-body">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-12">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <ul class="nav nav-tabs page-header-tab">
+                            <li class="nav-item"><a class="nav-link active" id="Employee-tab" data-toggle="tab" href="#Employee-list">รายการประเภท</a></li>
 
+                        </ul>
+                        <div class="header-action">
+                            <a href="HRMS_1_8_work_permit_add_new.php">
+                                <button type="button" class="btn btn-primary"><i class="fe fe-plus mr-2"></i>เพิ่ม</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                    </div>
+                </div>
+            </div>
+            <div class="section-body">
+                <div class="container-fluid">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="Employee-list" role="tabpanel">
                             <div class="card">
                                 <div class="card-header">
-                                    <h3 class="card-title">ข้อมูลบุคลากร</h3>
-                                </div>
-                                <div class="card-body row">
-                                    <div class="col-md-4 col-lg-4">
-                                        <div class="form-group">
-                                            <label class="form-label">ชื่อ-นามกสุล</label>
-                                            Mr. Hakim Mudor
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-lg-4">
-                                        <div class="form-group">
-                                            <label class="form-label">ตำแหน่งงาน</label>
-                                            เจ้าหน้าที่วิเคราะห์ระบบ
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-lg-4">
-                                        <div class="form-group">
-                                            <label class="form-label">หน่วยงาน</label>
-                                            ศูนย์เทคโนโลยีดิจิตอล
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-lg-4">
-                                        <div class="form-group">
-                                            <label class="form-label">เลขที่พาสพอร์ต</label>
-                                            HN895948
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-lg-4">
-                                        <div class="form-group">
-                                            <label class="form-label">เพศ</label>
-                                            ชาย
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-lg-4">
-                                        <div class="form-group multiselect_div">
-                                            <label class="form-label">สัญชาติ</label>
-                                            อิตาลี
-                                        </div>
+                                    <h3 class="card-title"></h3>
+                                    <div class="card-options">
+                                        <form>
+
+                                            <div class="input-group">
+                                                <select class="custom-select">
+                                                    <option selected="">คำนำหน้า</option>
+                                                    <option value="1">กรุปเลือด</option>
+                                                    <option value="2">เพศ</option>
+                                                    <option value="3">สถานภาพสมรส</option>
+                                                    <option value="3">ศาสนา</option>
+                                                    <option value="3">ระดับการศึกษา</option>
+                                                    <option value="3">วุฒิการศึกษา</option>
+                                                </select>
+
+
+                                                <span class="input-group-btn ml-2"><button class="btn btn-icon" type="submit"><span class="fe fe-search"></span></button></span>
+                                            </div>
+                                        </form>
                                     </div>
                                 </div>
                                 <div class="card-body">
                                     <div class="table-responsive">
-                                        <table class="table mb-0">
+                                        <table class="table table-hover table-striped table-vcenter text-nowrap">
                                             <thead>
                                                 <tr>
-                                                    <th style="width:30%;" class="pl-0">ประเภทงานที่ได้รับอนุญาต</th>
-                                                    <th style="width:30%">ใบอนุญาตทำงานเลขที่</th>
-                                                    <th style="width:15%">วันออกใบอนุญาต</th>
-                                                    <th style="width:15%">วันสิ้นสุดใบอนุญาต</th>
+                                                    <th style="width: 20px;">#</th>
+                                                    <th>ชื่อภาษาไทย</th>
+                                                    <th>ชื่อภาษาอังกฤษ</th>
+                                                    <th class="w60">Action</th>
                                                 </tr>
                                             </thead>
-                                            <tr>
-                                                <td class="pl-0">
-                                                    <input type="text" class="form-control">
-                                                </td>
-                                                <td>
-                                                    <input type="text" class="form-control">
-                                                </td>
-                                                <td>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <span class="input-group-text"><i class="icon-calendar"></i></span>
-                                                        </div>
-                                                        <input data-provide="datepicker" data-date-autoclose="true" type="text" class="form-control date" placeholder="วัน/เดือน/ปี">
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <span class="input-group-text"><i class="icon-calendar"></i></span>
-                                                        </div>
-                                                        <input data-provide="datepicker" data-date-autoclose="true" type="text" class="form-control date" placeholder="วัน/เดือน/ปี">
-                                                    </div>
-                                                </td>
-                                            </tr>
+                                            <tbody>
+                                                <tr>
+                                                    <td><span>01</span></td>
+                                                    <td>เจ้าหน้าที่วิเคราะห์ระบบคอมพิวเตอร์</td>
+                                                    <td>เวลาปกติ(8.30-16.30) </td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-icon" title="" data-toggle="tooltip" data-placement="top" data-original-title="Delete"><i class="icon-trash text-danger"></i></button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>02</span></td>
+                                                    <td>เจ้าหน้าที่บริหารงานทั่วไป</td>
+                                                    <td>เวลาปกติ(8.30-16.30) </td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-icon" title="" data-toggle="tooltip" data-placement="top" data-original-title="Delete"><i class="icon-trash text-danger"></i></button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>03</span></td>
+                                                    <td>นายช่างเทคนิค</td>
+                                                    <td>เวลาปกติ(8.30-16.30) </td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-icon" title="" data-toggle="tooltip" data-placement="top" data-original-title="Delete"><i class="icon-trash text-danger"></i></button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>04</span></td>
+                                                    <td>แม่บ้าน</td>
+                                                    <td>กะเช้าตรู่(7.30-15.30) </td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-icon" title="" data-toggle="tooltip" data-placement="top" data-original-title="Delete"><i class="icon-trash text-danger"></i></button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>05</span></td>
+                                                    <td>เจ้าหน้าที่รักษาความปลอดภัย</td>
+                                                    <td>เวลากลางคืน(18.00-08.00) </td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-icon" title="" data-toggle="tooltip" data-placement="top" data-original-title="Delete"><i class="icon-trash text-danger"></i></button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
                                         </table>
                                     </div>
-                                </div>
-                                <div class="card-body row">
-                                    <div class="col-lg-4 col-md-4"></div>
-                                    <div class="col-lg-4 col-md-4">
-                                        <div class="card">
-                                            <div class="card-header">
-                                                <h3 class="card-title">หลักฐานประกอบ <small>รองรับไฟล์ png,jpg,jpeg,gif,pdf</small></h3>
-                                            </div>
-                                            <div class="card-body">
-                                                <input type="file" class="dropify">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4"></div>
-                                </div>
-                                <div class="card-footer text-center">
-                                    <a href="HRMS_user_req.php" class="btn btn-primary"><i class="fa fa-save"></i> บันทึกข้อมูล</a>
-                                    <a href="HRMS_user_req.php" class="btn btn-danger"><i class="fa fa-close"></i> ยกเลิก</a>
+                                    <nav aria-label="Page navigation">
+                                        <ul class="pagination mb-0 justify-content-end">
+                                            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                        </ul>
+                                    </nav>
                                 </div>
                             </div>
                         </div>
-
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">ข้อมูลพนักงาน</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row clearfix">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Employee ID">
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Email ID">
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-group">
+                                <input type="number" class="form-control" placeholder="Phone Number">
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-group">
+                                <input type="text" data-provide="datepicker" data-date-autoclose="true" class="form-control" placeholder="Start date *">
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Role">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group mt-2 mb-3">
+                                <input type="file" class="dropify">
+                                <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Facebook">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Twitter">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Linkedin">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="instagram">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
             </div>
         </div>
@@ -699,20 +780,64 @@
 
     <script src="../assets/bundles/lib.vendor.bundle.js"></script>
 
-    <script src="../assets/plugins/jquery-steps/jquery.steps.js"></script>
-    <script src="../assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+    <script src="../assets/bundles/counterup.bundle.js"></script>
+    <script src="../assets/plugins/sweetalert/sweetalert.min.js"></script>
     <script src="../assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
-    <script src="../assets/plugins/bootstrap-multiselect/bootstrap-multiselect.js"></script>
-    <script src="../assets/plugins/multi-select/js/jquery.multi-select.js"></script>
-    <script src="../assets/plugins/jquery.maskedinput/jquery.maskedinput.min.js"></script>
-    <script src="../assets/plugins/jquery-inputmask/jquery.inputmask.bundle.js"></script>
     <script src="../assets/plugins/dropify/js/dropify.min.js"></script>
-    <script src="../assets/bundles/summernote.bundle.js"></script>
+    <script src="../assets/plugins/bootstrap-multiselect/bootstrap-multiselect.js"></script>
 
     <script src="../assets/js/core.js"></script>
-    <script src="assets/js/form/wizard.js"></script>
-    <script src="assets/js/form/form-advanced.js"></script>
-    <script src="assets/js/page/summernote.js"></script>
+    <script src="assets/js/page/dialogs.js"></script>
+    <script src="assets/js/form/dropify.js"></script>
+
+    <script>
+        $('#multiselect3-all').multiselect({});
+    </script>
+
+    <script>
+        $(function() {
+            "use strict";
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+
+            function getRandomValues() {
+                // data setup
+                var values = new Array(20);
+
+                for (var i = 0; i < values.length; i++) {
+                    values[i] = [5 + randomVal(), 10 + randomVal(), 15 + randomVal(), 20 + randomVal(), 30 + randomVal(),
+                        35 + randomVal(), 40 + randomVal(), 45 + randomVal(), 50 + randomVal()
+                    ];
+                }
+
+                return values;
+            }
+
+            function randomVal() {
+                return Math.floor(Math.random() * 80);
+            }
+
+            // MINI BAR CHART
+            var values2 = getRandomValues();
+            var paramsBar = {
+                type: 'bar',
+                barWidth: 5,
+                height: 25,
+            };
+
+            $('#mini-bar-chart1').sparkline(values2[0], paramsBar);
+            paramsBar.barColor = '#6c757d';
+            $('#mini-bar-chart2').sparkline(values2[1], paramsBar);
+            paramsBar.barColor = '#6c757d';
+            $('#mini-bar-chart3').sparkline(values2[2], paramsBar);
+            paramsBar.barColor = '#6c757d';
+            $('#mini-bar-chart4').sparkline(values2[3], paramsBar);
+            paramsBar.barColor = '#6c757d';
+
+        });
+    </script>
 </body>
 
 </html>

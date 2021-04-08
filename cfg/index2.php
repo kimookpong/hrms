@@ -37,28 +37,6 @@ Created:  Tue Mar 16 2021
     </div>
 
     <div id="main_content">
-        <div id="header_top" class="header_top">
-            <div class="container">
-                <div class="hleft">
-                    <a class="header-brand" href="#"><i class="fe fe-command brand-logo"></i></a>
-                    <!-- <div class="dropdown">
-                    <a href="page-search.html" class="nav-link icon"><i class="fa fa-search"></i></a>                    
-                    <a href="app-calendar.html"  class="nav-link icon app_inbox"><i class="fa fa-calendar"></i></a>
-                    <a href="app-contact.html"  class="nav-link icon xs-hide"><i class="fa fa-id-card-o"></i></a>
-                    <a href="app-chat.html"  class="nav-link icon xs-hide"><i class="fa fa-comments-o"></i></a>
-                    <a href="app-filemanager.html"  class="nav-link icon app_file xs-hide"><i class="fa fa-folder-o"></i></a>
-                </div> -->
-                </div>
-                <div class="hright">
-                    <div class="dropdown">
-                        <!--      <a href="javascript:void(0)" class="nav-link icon theme_btn"><i class="fa fa-paint-brush" data-toggle="tooltip" data-placement="right" title="Themes"></i></a>
-                    <a href="javascript:void(0)" class="nav-link icon settingbar"><i class="fa fa-gear fa-spin" data-toggle="tooltip" data-placement="right" title="Settings"></i></a>
-                    <a href="javascript:void(0)" class="nav-link user_btn"><img class="avatar" src="../assets/images/user.png" alt="" data-toggle="tooltip" data-placement="right" title="User Menu"/></a> -->
-                        <a href="javascript:void(0)" class="nav-link icon menu_toggle"><i class="fa  fa-align-left"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <?php include "menu.php"; ?>
 
@@ -85,6 +63,7 @@ Created:  Tue Mar 16 2021
                                     
                                 </div>
                                 <table class="table card-table mt-2">
+<<<<<<< HEAD
                                 <tbody>
                                     <tr>
                                         <td class="width45"><span class="avatar avatar-green"><i class="fa fa-newspaper-o"></i></span></td>
@@ -135,16 +114,83 @@ Created:  Tue Mar 16 2021
                             <a href="indexnews.php"class="float-right">อ่านทั้งหมด <i class="fa fa-arrow-circle-o-right"></i></a> 
                         </div>
                         </div>
+=======
+                                    <tbody>
+                                        <tr>
+                                            <td class="width45"><span class="avatar avatar-green"><i class="fa fa-newspaper-o"></i></span></td>
+                                            <td>
+                                                <p class="mb-0">ประกาศ มวล.เรื่อง แนวปฏิบัติการเฝ้าระวังการระบาดของโรคติดเชื้อไวรัสโคโรน่า 2019 (โควิด19) ฉบับที่ 3 </p>
+                                                <span class="text-muted font-13">วันที่ประกาศ: 12/03/2564 - อ่าน : 230 </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="width45"><span class="avatar avatar-orange"><i class="fa fa-newspaper-o"></i></span></td>
+                                            <td>
+                                                <p class="mb-0">กำหนดการและรายละเอียดการสอบ TOEFL ITP วันเสาร์ที่ 6 มีนาคม 2564</p>
+                                                <span class="text-muted font-13">วันที่ประกาศ: 12/03/2564 - อ่าน : 567</span>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="mt-20">
+                                    <a href="" class="float-right">อ่านทั้งหมด <i class="fa fa-arrow-circle-o-right"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3 class="card-title">แจ้งเพื่อทราบ2</h3>
+
+                                </div>
+                                <table class="table card-table mt-2">
+                                    <tbody>
+                                        <tr>
+                                            <td class="width45"><span class="avatar avatar-green"><i class="fa fa-newspaper-o"></i></span></td>
+                                            <td>
+                                                <p class="mb-0">ประกาศ มวล.เรื่อง แนวปฏิบัติการเฝ้าระวังการระบาดของโรคติดเชื้อไวรัสโคโรน่า 2019 (โควิด19) ฉบับที่ 3 </p>
+                                                <span class="text-muted font-13">วันที่ประกาศ: 12/03/2564 - อ่าน : 230 </span>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="width45"><span class="avatar avatar-orange"><i class="fa fa-newspaper-o"></i></span></td>
+                                            <td>
+                                                <p class="mb-0">กำหนดการและรายละเอียดการสอบ TOEFL ITP วันเสาร์ที่ 6 มีนาคม 2564</p>
+                                                <span class="text-muted font-13">วันที่ประกาศ: 12/03/2564 - อ่าน : 567</span>
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                                <div class="mt-20">
+                                    <a href="" class="float-right">อ่านทั้งหมด <i class="fa fa-arrow-circle-o-right"></i></a>
+                                </div>
+                            </div>
+>>>>>>> 7ba9f73aa695ead28a7f35b7fcee6061f80e20c0
 
 
+                        </div>
                     </div>
-                </div>    
 
+                </div>
+            </div>
         </div>
+<<<<<<< HEAD
               </div>    
 </div>
     </div>    
 </div>
+=======
+
+
+
+
+    </div>
+    </div>
+
+
+
+>>>>>>> 7ba9f73aa695ead28a7f35b7fcee6061f80e20c0
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
