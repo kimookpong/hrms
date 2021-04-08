@@ -417,12 +417,8 @@
             </div>
         </div>
 
-<<<<<<< HEAD
     <?php include "menu_per.php";?>
     
-=======
-        <?php include "menu.php"; ?>
->>>>>>> 7ba9f73aa695ead28a7f35b7fcee6061f80e20c0
 
 
         <div class="page">
